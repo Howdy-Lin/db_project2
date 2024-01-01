@@ -13,5 +13,5 @@ db.getCollection("Accident").find({ "Sex_of_Driver" : { $eq : 2.0 }, "Hit_Object
 
 **3.查詢意外事故當中，傷亡乘客年齡（Age_of_Casualty）> 60，且傷亡種類為骨折（Casualty_Class） = １**
 db.getCollection("Accident").find({"Age_of_Casualty":{$gt:60},"Casualty_Class":{$eq:1}})<br>
-**查詢結果**
+**查詢結果**<br>
 ![image](https://github.com/Howdy-Lin/db_project2/assets/74965449/9470e07b-8085-460e-ad0e-94ee6fd6ec4c)
