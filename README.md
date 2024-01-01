@@ -6,7 +6,7 @@ db.getCollection("Accident").find({"Number_of_Vehicles":{$gt:3},"Speed_limit":{$
 ![image](https://github.com/Howdy-Lin/db_project2/assets/74965449/2f98a43c-f19d-4c4d-9ede-3e6a8ec0d8a1)
 
 **2.查詢意外事故當中，駕駛性別（Sex_of_Driver）＝＂女＂(1)，車道外撞擊物體數（Hit_Object_off_Carriageway）＞２**
-db.getCollection("Accident").find({ "Sex_of_Driver" : { $eq : 2.0 }, "Hit_Object_off_Carriageway" : { $gt : 2 } }) <br> 
+db.getCollection("Accident").find({ "Sex_of_Driver" : { $eq : 2.0 }, "Hit_Object_off_Carriageway" : { $gt : 2 } })   <br> 
 **查詢結果**  
 ![image](https://github.com/Howdy-Lin/db_project2/assets/74965449/62d5bc13-5e77-4a90-ba2f-2c72ea6a6db1)
 
